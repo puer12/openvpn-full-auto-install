@@ -21,6 +21,8 @@ Script'i başlatın.
 ```bash
 sudo bash openvpn.sh --auto
 ```
+NOT:
+Sunucular için 1194 numaralı portu açamyı unutmayın.Aksi takdirde çalışmaycaktır.
 
 <details>
 <summary>
@@ -32,7 +34,6 @@ Terminal çıktısı şu şekilde olmalı
 <p align="center"><img src="docs/images/demo1.svg"></p>
 </details>
 
-Sunucular için 1194 numaralı portu açamyı unutmayın.Aksi takdirde çalışmaycaktır.
 
 **Option 2:** Interactive install using custom options.
 
