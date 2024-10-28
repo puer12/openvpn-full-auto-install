@@ -32,7 +32,7 @@ Terminal çıktısı şu şekilde olmalı
 <p align="center"><img src="docs/images/demo1.svg"></p>
 </details>
 
-For servers with an external firewall (e.g. [EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html)/[GCE](https://cloud.google.com/firewall/docs/firewalls)), open UDP port 1194 for the VPN.
+Sunucular için 1194 numaralı portu açamyı unutmayın.Aksi takdirde çalışmaycaktır.
 
 **Option 2:** Interactive install using custom options.
 
