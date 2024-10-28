@@ -3,9 +3,7 @@
 ## Features
 
 - Full otomatik openvpn kurulumu 
-- Supports interactive install using custom options
-- Generates VPN profiles to auto-configure Windows, macOS, iOS and Android devices
-- Supports managing OpenVPN users and certificates
+- ovpn dosyası kurulum bittiğinde otomatik olarak oluşturulur.
 - Optimizes `sysctl` settings for improved VPN performance
 
 ## Installation - Kurulum
@@ -22,7 +20,7 @@ Script'i başlatın.
 sudo bash openvpn.sh --auto
 ```
 NOT:
-Sunucular için 1194 numaralı portu açamyı unutmayın.Aksi takdirde çalışmaycaktır.
+Sunucular için 1194 numaralı portu açamayı unutmayın.Aksi takdirde çalışmaycaktır.
 
 <details>
 <summary>
