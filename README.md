@@ -1,36 +1,22 @@
-[English](README.md) | [中文](README-zh.md) | [Video en Español](https://www.youtube.com/watch?v=99qtaJU2E2k)
-
 # OpenVPN Server Auto Setup Script
-
-[![Build Status](https://github.com/hwdsl2/openvpn-install/actions/workflows/main.yml/badge.svg)](https://github.com/hwdsl2/openvpn-install/actions/workflows/main.yml) &nbsp;[![License: MIT](docs/images/license.svg)](https://opensource.org/licenses/MIT)
-
-OpenVPN server installer for Ubuntu, Debian, AlmaLinux, Rocky Linux, CentOS, Fedora, openSUSE, Amazon Linux 2 and Raspberry Pi OS.
-
-This script will let you set up your own VPN server in just a few minutes, even if you haven't used OpenVPN before. [OpenVPN](https://openvpn.net/community-resources/reference-manual-for-openvpn-2-6/) is an open-source, robust and highly flexible VPN protocol.
-
-See also: [WireGuard](https://github.com/hwdsl2/wireguard-install) and [IPsec VPN](https://github.com/hwdsl2/setup-ipsec-vpn) server auto setup scripts.
-
-**[&raquo; :book: Book: Build Your Own VPN Server](https://books2read.com/vpnguide?store=amazon)** [[English](https://books2read.com/vpnguide?store=amazon) | [中文](https://books2read.com/vpnguidezh) | [Español](https://books2read.com/vpnguidees?store=amazon) | [Deutsch](https://books2read.com/vpnguidede?store=amazon) | [Français](https://books2read.com/vpnguidefr?store=amazon) | [Italiano](https://books2read.com/vpnguideit?store=amazon)]
 
 ## Features
 
-- Fully automated OpenVPN server setup, no user input needed
+- Full otomatik openvpn kurulumu 
 - Supports interactive install using custom options
 - Generates VPN profiles to auto-configure Windows, macOS, iOS and Android devices
 - Supports managing OpenVPN users and certificates
 - Optimizes `sysctl` settings for improved VPN performance
 
-## Installation
+## Installation - Kurulum
 
-First, download the script on your Linux server\*:
+Script'i indirin.
 
 ```bash
 wget -O openvpn.sh https://get.vpnsetup.net/ovpn
 ```
 
-\* A cloud server, virtual private server (VPS) or dedicated server.
-
-**Option 1:** Auto install OpenVPN using default options.
+Script'i başlatın.
 
 ```bash
 sudo bash openvpn.sh --auto
@@ -38,10 +24,10 @@ sudo bash openvpn.sh --auto
 
 <details>
 <summary>
-See the script in action (terminal recording).
+Terminal çıktısı şu şekilde olmalı
 </summary>
 
-**Note:** This recording is for demo purposes only.
+**Note:** DEMO.
 
 <p align="center"><img src="docs/images/demo1.svg"></p>
 </details>
